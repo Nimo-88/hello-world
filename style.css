@@ -1,17 +1,53 @@
-/* extranal style sheet */
+/* External style sheet */
 
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
 
-body { 
-    background-color: rgb(24, 55, 72);
-} 
-
-*{
-    border: 1px
-
+* {
+    border: 0;
 }
 
 p {
- 
-padding:
+    padding: 0;
 }
 
+ul {
+    background-color: #ffffff;
+    padding: 4%;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: xx-large;
+    padding: 1%;
+    list-style: none;
+}
+
+section {
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+}
+
+/* ID - unique value given to an element */
+#hero-img {
+    width: 50%;
+}
+
+/* CLASS - a way to group similar elements together */
+
+.low {
+    background-color: goldenrod;
+    list-style: inside;
+    font-size: x-large;
+}
+
+/* Additional styling for nav ul */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
