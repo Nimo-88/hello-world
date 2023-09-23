@@ -18,5 +18,3 @@ if (userName == "ben"){
     alert("Kassie is the best!!");
  } 
 
-
-         
