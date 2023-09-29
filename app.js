@@ -2,8 +2,7 @@
 
 console.log("I am in the HTML");
 alert("Welcome to my page");
-const theirName = getName();
-myAudience(theirName);
+
 
 function getName() {
   const userName = prompt("What is your name?");
@@ -21,20 +20,3 @@ function specialMessage(userName) {
   }
 }
 
-if ((10 === 10) && (4 === 2)) {
-  console.log("true");
-} else {
-  console.log("false");
-}
-
-function greeting(time) {
-  if (time < 20) {
-    return "Good Morning";
-  } else if (time <= 30) {
-    return "Good Evening";
-  } else {
-    return "Good Night";
-  }
-}
-
-console.log(greeting(24));
