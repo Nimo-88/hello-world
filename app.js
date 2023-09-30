@@ -11,8 +11,8 @@ function getName() {
 }
 
 function specialMessage(usersName) {
-  if (usersName === "Kassie") {
-    alert("Hi Kassie");
+  if (usersName === "Nimo") {
+    alert("Hi Nimo");
   } else {
     alert("Good to have you here");
   }
