@@ -1,22 +1,16 @@
 'use strict';
-
 console.log("I am in the HTML");
 alert("Welcome to my page");
-
-
-function getName() {
-  const userName = prompt("What is your name?");
-  return userName;
+const usersName = prompt("What is your name?");
+console.log(usersName);
+if (usersName === "Kassie") {
+    alert("Hi Kassie");
+} else {
+    alert("Good to have you here");
 }
 
-function myAudience(userName) {
-  document.write("Hi " + userName + ", welcome to my Self Love page!");
-  return;
-}
+document.write("Hi " + usersName + " welcome to my page!");
 
-function specialMessage(userName) {
-  if (userName === "") {
-    userName = prompt("Come on, please tell me your name!");
-  }
-}
+const question = prompt("What's one thing you love about yourself?");
+
 
