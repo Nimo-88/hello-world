@@ -25,11 +25,27 @@ function greetUser(usersName) {
 const usersName = theirName;
 greetUser(usersName);
 
+
 function askAboutSelfLove() {
   const question = prompt("What's one thing you love about yourself?");
   if (question === "") {
-    alert("Take your time to think about it");
+    alert("thank you for anwsing the question!");
   }
 }
 
+let response = prompt('Guess my favorite workout day?');
+while (response !== 'saturday'){
+response = prompt('wrong! try again.')
+} 
+
+
 askAboutSelfLove();
+
+
+function workouts(){
+  let workouts = prompt("How many hours do you exercise a week? 1-10");
+
+  for (let i = 0; i < workouts; i++) {
+    document.write('<img src="fitness.jpg" alt="Gym workouts" />');
+  }
+}
